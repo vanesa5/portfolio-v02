@@ -1,23 +1,20 @@
+import { pageLinks } from "../data";
+
 export const Header = () => {
     return (
         <header>
             <div class="content-wrapper">
                 <nav>
                     <ul>
-                        <li>
-                            <a href="#gallery">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#skills">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li>
-                            <a href="#contact-info" id="contact-link">
-                                Contact Me
-                            </a>
-                        </li>
+                        {pageLinks.map((link) => {
+                            return (
+                                <li key={link.id}>
+                                    <a href={link.href} id={link.class}>
+                                        {link.text}
+                                    </a>
+                                </li>
+                            );
+                        })}
                     </ul>
                 </nav>
                 <h1>Hi there, I'm Vanesa Garcia!</h1>

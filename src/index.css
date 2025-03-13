@@ -55,7 +55,7 @@ footer {
     flex-flow: row wrap;
 }
 
-#gallery,
+#projects,
 #skills,
 #tools,
 #about {
@@ -145,17 +145,17 @@ header p {
 
 /***** GALLERY *****/
 
-#gallery {
+#projects {
     background: white;
     padding-top: 3.5rem;
 }
 
-#gallery .full-width {
+#projects .full-width {
     margin-top: 1.25rem;
     font-weight: 300;
 }
 
-#gallery .fifth-width {
+#projects .fifth-width {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,17 +163,17 @@ header p {
     flex-flow: column;
 }
 
-#gallery img {
+#projects img {
     margin: 5px;
 }
 
-#gallery .fifth-width p {
+#projects .fifth-width p {
     font-size: 1rem;
     width: 95%;
     text-align: left;
 }
 
-#gallery h2,
+#projects h2,
 #skills h2 {
     font-weight: 300;
     color: black;
@@ -183,11 +183,11 @@ header p {
     justify-content: center;
 }
 
-#gallery span {
+#projects span {
     font-weight: 400;
 }
 
-#gallery h3 {
+#projects h3 {
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 2rem;
@@ -247,7 +247,7 @@ figure {
 
 .code-skills article,
 .code-tools article {
-    width: 40%;
+    width: 30%;
     padding: 3.75rem 0 1.875rem 0;
     display: flex;
     flex-flow: column;
@@ -310,7 +310,7 @@ i.jsx {
 
 /* * * * * ABOUT * * * * */
 #about .full-width,
-#gallery .full-width {
+#projects .full-width {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -491,34 +491,34 @@ footer .copyright {
 
     /* * * Gallery * * */
 
-    #gallery h2 {
+    #projects h2 {
         font-size: 2.5rem;
     }
 
-    #gallery h3 {
+    #projects h3 {
         font-size: 1.25rem;
     }
 
-    #gallery .fifth-width {
+    #projects .fifth-width {
         width: 50%;
     }
 
-    #gallery .fifth-width p {
+    #projects .fifth-width p {
         font-size: 1rem;
     }
 
-    #gallery .full-width {
+    #projects .full-width {
         display: flex;
         justify-content: center;
         align-items: start;
         flex-flow: row wrap;
     }
 
-    #gallery img {
+    #projects img {
         width: 70%;
     }
 
-    #gallery a {
+    #projects a {
         font-size: 1rem;
     }
 
@@ -634,28 +634,28 @@ footer .copyright {
         font-size: 2rem;
     }
 
-    #gallery .fifth-width {
+    #projects .fifth-width {
         width: 30%;
 
         display: flex;
     }
 
-    #gallery h2 {
+    #projects h2 {
         font-size: 2.75rem;
         margin-bottom: 5rem;
     }
 
-    #gallery h3 {
+    #projects h3 {
         font-size: 1.5rem;
     }
 
-    #gallery .fifth-width img {
+    #projects .fifth-width img {
         width: 100%;
     }
 
-    .code-skills article {
+    /* .code-skills article {
         width: 30%;
-    }
+    } */
 
     #skills h2,
     #tools h2 {

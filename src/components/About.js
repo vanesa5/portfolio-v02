@@ -1,12 +1,11 @@
+import bioImage from "../img/vanesa-profile.jpeg";
+
 export const About = () => {
     return (
         <section id="about">
             <div class="content-wrapper">
                 <div class="full-width">
-                    <img
-                        src="img/vanesa-profile.jpeg"
-                        alt="Vanesa Profile Picture"
-                    />
+                    <img src={bioImage} alt="Vanesa Profile" />
                     <h2>Hello! I'm Vanesa Garcia.</h2>
                     <h4>
                         I am a front end developer that enjoys transforming
