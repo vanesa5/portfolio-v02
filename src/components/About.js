@@ -8,16 +8,18 @@ export const About = () => {
                     <img src={bioImage} alt="Vanesa Profile" />
                     <h2>Hello! I'm Vanesa Garcia.</h2>
                     <h4>
-                        I am a front end developer that enjoys transforming
-                        static websites to clean responsive sites.
+                        As a front-end developer, I specialize in transforming
+                        static websites into clean, responsive, and engaging
+                        digital experiences. My passion for problem-solving
+                        started in my teenage years, and after a career in
+                        teaching, I found my true calling in web development.
                     </h4>
                     <p>
-                        The interest in problem-solving computer issues arose in
-                        my early teenage years. It wasn't until I was done with
-                        teaching when I took the path to web development. When
-                        I’m away from my computer, I enjoy being outdoors
-                        walking to the beach, and harvesting from our farm with
-                        my son.
+                        When I’m not coding, I love spending time
+                        outdoors—walking along the beach or harvesting fresh
+                        produce from our farm with my kids. With a keen eye for
+                        design and user experience, I bring creativity and
+                        precision to every project.
                     </p>
                     <p class="last-par">Looking foward to working together!</p>
                 </div>

@@ -7,7 +7,7 @@ import { Tools } from "./components/Tools";
 
 function App() {
     return (
-        <>
+        <div className="wrapper">
             <Header />
 
             {/* <!--Start of Main--> */}
@@ -33,7 +33,7 @@ function App() {
             {/* <!--Start of Footer--> */}
             <Footer />
             {/* <!--End of Footer--> */}
-        </>
+        </div>
     );
 }
 
